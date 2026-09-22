@@ -3,6 +3,22 @@
 Versions follow [semantic versioning](https://semver.org/); each release is a
 tag on `main`.
 
+## v1.3.1 — screenshots
+
+- The Home animation is re-cut on the rotations: the loop now walks Library,
+  Source, System and back to Library, instead of opening on four idle seconds
+  and cutting off mid-turn.
+
+## v1.3.0 — screenshots
+
+- The README now shows the interface: an animated capture of the Home cube
+  turning between its four faces, the game library, and the game detail
+  screen.
+- Captured from a demonstration card built for the purpose — nine fictitious
+  titles with generated cover art — so nothing in frame is anyone's real
+  library or third-party artwork. The animations are APNG, which GitHub
+  renders in a README like any image.
+
 ## v1.2.0 — first public release
 
 The first published release of the interface rebuild. Everything below is what

@@ -13,6 +13,12 @@
   <a href="https://buy.stripe.com/8x26oH2U44f65TRe574wM04"><img alt="Donate" src="https://img.shields.io/badge/donate-Stripe-635bff.svg?logo=stripe&logoColor=white"></a>
 </p>
 
+<p align="center">
+  <img alt="The Swiss UI Home screen: a glass cube turning between its Library, DVD, System and Source faces on a dark starfield, with the selected face named underneath." src="docs/screenshots/home.png" width="640">
+</p>
+
+Captured on a demonstration card: the game titles and cover art are fictitious.
+
 Swiss UI is an unofficial fork of [Swiss](https://github.com/emukidid/swiss-gc),
 the homebrew utility that boots and patches games on a Nintendo GameCube. The
 fork changes one thing: what you look at. Everything underneath — the device
@@ -29,11 +35,21 @@ typeface, the palette — is the reference, not a desktop launcher.
 
 **The library retains its posters.** A grid over whatever device you booted
 from, with artwork kept across navigation rather than re-read per frame, and
-your selection restored when you come back from a game's details.
+your selection restored when you come back from a game's details. Cover art
+comes from a pack you build yourself; without one, each game gets a generated
+card.
 
-**Game details are a surface, not a dialogue.** Artwork, region and format,
-and the boot options for that title in one place, with the same controller
-grammar as every other screen.
+<p align="center">
+  <img alt="The game library: a row of cover cards with the selected one raised and named below it." src="docs/screenshots/library.png" width="640">
+</p>
+
+**Game details are a surface, not a dialogue.** Artwork, last played, save
+data, cheats and the boot options for that title in one place, with the same
+controller grammar as every other screen.
+
+<p align="center">
+  <img alt="The game detail screen: cover on the left, last played, save data and cheats listed on the right, and a launch button." src="docs/screenshots/game-detail.png" width="640">
+</p>
 
 **Cheats read clearly.** The cheat browser shows per-cheat state plainly, and
 the runtime handling around it is stricter about what it will apply.
@@ -69,6 +85,7 @@ changes.
 
 - [`CHANGELOG.md`](CHANGELOG.md) — what each release contains.
 - [`NOTICE`](NOTICE) — upstream provenance and the third-party components in this tree.
+- [`docs/screenshots/`](docs/screenshots) — the pictures above, captured from a demonstration card.
 - Upstream [Swiss documentation](https://github.com/emukidid/swiss-gc) covers every device handler, patch and boot option; none of it changed here.
 
 ## Contributing and support
