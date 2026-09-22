@@ -3,6 +3,13 @@
 Versions follow [semantic versioning](https://semver.org/); each release is a
 tag on `main`.
 
+## v1.3.2 — screenshots
+
+- The library animation and game detail still now show a poster pack in use:
+  nine illustrated covers drawn for the fictitious demonstration titles,
+  rendered by the real poster pipeline (focus scaling, depth, retained art),
+  instead of the generated fallback cards.
+
 ## v1.3.1 — screenshots
 
 - The Home animation is re-cut on the rotations: the loop now walks Library,
