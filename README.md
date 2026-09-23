@@ -17,7 +17,7 @@
   <img alt="The Swiss UI Home screen: a glass cube turning between its Library, DVD, System and Source faces on a dark starfield, with the selected face named underneath." src="docs/screenshots/home.png" width="640">
 </p>
 
-Captured on a demonstration card: the game titles and cover art are fictitious.
+Captured in the Dolphin emulator. The library and game detail pictures show a real poster pack in use; box art belongs to its publishers.
 
 Swiss UI is an unofficial fork of [Swiss](https://github.com/emukidid/swiss-gc),
 the homebrew utility that boots and patches games on a Nintendo GameCube. The
@@ -40,7 +40,7 @@ comes from a pack you build yourself; without one, each game gets a generated
 card.
 
 <p align="center">
-  <img alt="The game library: a row of cover cards with the selected one raised and named below it." src="docs/screenshots/library.png" width="640">
+  <img alt="The game library: GameCube box art in a carousel, the selected cover raised with its title and publisher below it." src="docs/screenshots/library.png" width="640">
 </p>
 
 **Game details are a surface, not a dialogue.** Artwork, last played, save
@@ -85,7 +85,7 @@ changes.
 
 - [`CHANGELOG.md`](CHANGELOG.md) — what each release contains.
 - [`NOTICE`](NOTICE) — upstream provenance and the third-party components in this tree.
-- [`docs/screenshots/`](docs/screenshots) — the pictures above, captured from a demonstration card.
+- [`docs/screenshots/`](docs/screenshots) — the pictures above, captured in Dolphin.
 - Upstream [Swiss documentation](https://github.com/emukidid/swiss-gc) covers every device handler, patch and boot option; none of it changed here.
 
 ## Contributing and support

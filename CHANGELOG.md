@@ -3,6 +3,11 @@
 Versions follow [semantic versioning](https://semver.org/); each release is a
 tag on `main`.
 
+## v1.3.3 — screenshots
+
+- The library animation and game detail still show real GameCube games with
+  their box art from a poster pack, instead of fictitious placeholder titles.
+
 ## v1.3.2 — screenshots
 
 - The library animation and game detail still now show a poster pack in use:
