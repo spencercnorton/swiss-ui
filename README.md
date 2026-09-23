@@ -17,7 +17,7 @@
   <img alt="The Swiss UI Home screen: a glass cube turning between its Library, DVD, System and Source faces on a dark starfield, with the selected face named underneath." src="docs/screenshots/home.png" width="640">
 </p>
 
-Captured in the Dolphin emulator. The library and game detail pictures show a real poster pack in use; box art belongs to its publishers.
+Captured in the Dolphin emulator. The library and game detail pictures show a real poster pack and cheat file in use; box art belongs to its publishers.
 
 Swiss UI is an unofficial fork of [Swiss](https://github.com/emukidid/swiss-gc),
 the homebrew utility that boots and patches games on a Nintendo GameCube. The
@@ -48,7 +48,7 @@ data, cheats and the boot options for that title in one place, with the same
 controller grammar as every other screen.
 
 <p align="center">
-  <img alt="The game detail screen: cover on the left, last played, save data and cheats listed on the right, and a launch button." src="docs/screenshots/game-detail.png" width="640">
+  <img alt="The game detail screen for LEGO Star Wars II: Y opens the cheat browser, three cheats are switched on and one switched back off, and the detail screen then reads 2 of 130 enabled." src="docs/screenshots/game-detail.png" width="640">
 </p>
 
 **Cheats read clearly.** The cheat browser shows per-cheat state plainly, and

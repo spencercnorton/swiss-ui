@@ -3,6 +3,14 @@
 Versions follow [semantic versioning](https://semver.org/); each release is a
 tag on `main`.
 
+## v1.3.4 — cheats
+
+- Fixed: leaving the cheat browser crashed Swiss when the cheat file came from
+  a read-only device such as a data disc. Saving the selection now skips a
+  device that cannot write instead of calling a missing write handler.
+- The game detail picture is now an animation: the cheat browser opens,
+  cheats are switched on and off, and the detail screen shows the new count.
+
 ## v1.3.3 — screenshots
 
 - The library animation and game detail still show real GameCube games with

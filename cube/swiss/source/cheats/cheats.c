@@ -621,7 +621,11 @@ bool saveCheatsSelection(void) {
 	int i;
 	bool writeComplete = true;
 
-	if(devices[DEVICE_CHEATS] == NULL || !_cheatPolicy.definitionLoaded ||
+	/* Cheats read from a read-only device (a data disc) cannot be saved;
+	 * its handler has no writeFile, and calling it crashed on Done. */
+	if(devices[DEVICE_CHEATS] == NULL ||
+		devices[DEVICE_CHEATS]->writeFile == NULL ||
+		!_cheatPolicy.definitionLoaded ||
 		!CheatIdentity_SelectionName(&_cheatIdentity, exactName,
 			sizeof(exactName)) || getEnabledCheatsSize() > kenobi_get_maxsize()) {
 		return false;
